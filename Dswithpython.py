@@ -45,6 +45,8 @@ class Linkedlist:
     def __init__(self):
         self.head = None
 
+# This function helps us to view the created linked list
+
 
 def Printdata(self):
     tmp = self.head
