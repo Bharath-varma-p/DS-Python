@@ -9,7 +9,7 @@
 #     -->>     7. Graphs
 #     -->>     8. Binary Heaps
 
-#------------------------- Advance Data Strutures -----------------------------------
+# ------------------------- Advance Data Strutures -----------------------------------
 #     -->>     9. Circular Queue
 #     -->>    10. Priority Queue
 #     -->>    11. Deque
@@ -25,3 +25,43 @@
 #     -->>    21. Disjoint Set
 #     -->>    22. Spanning Tree
 # new
+
+
+#      ------------ 1. Linked list --------------
+
+
+# creating a node       node has two parts one is data other is reference.  (in referance we store id of next node)
+from optparse import TitledHelpFormatter
+
+
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+# this linkedlist class holds the head value
+class Linkedlist:
+    def __init__(self):
+        self.head = None
+
+
+def Printdata(self):
+    tmp = self.head
+    while (tmp):
+        print(tmp.data, end=" ")
+        tmp = tmp.next
+
+
+if __name__ == '__main__':
+    llist = Linkedlist()
+    print(llist)
+    llist.head = Node(10)
+    middle = Node(20)
+    last = Node(30)
+    print(middle)
+
+    llist.head.next = middle
+    middle.next = last
+
+    Printdata(llist)
