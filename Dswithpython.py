@@ -55,6 +55,15 @@ def Printdata(self):
         tmp = tmp.next
 
 
+# The function below helps us to add new list items in the linked list
+def Addnewitem(self, val):
+
+    newNode = Node(val)
+    newNode.next = self.head
+
+    self.head = newNode
+
+
 if __name__ == '__main__':
     llist = Linkedlist()
     print(llist)
@@ -65,5 +74,12 @@ if __name__ == '__main__':
 
     llist.head.next = middle
     middle.next = last
+
+    Printdata(llist)
+
+    # adding a new list item to linked list in the 1st
+    Addnewitem(llist, 100)
+    Addnewitem(llist, 200)
+    Addnewitem(llist, 300)
 
     Printdata(llist)
