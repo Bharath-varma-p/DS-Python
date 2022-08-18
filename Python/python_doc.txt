@@ -1,0 +1,136 @@
+--------------------------------------------------------
+                        TABLES OF CONTENT
+--------------------------------------------------------
+1.  Intro to Python
+    1.a Why python Python
+    1.1 Python block structure
+    1.2 Comments
+
+2.  Basics
+    2.1 Print Fucntion
+    2.2 Escape Sequence
+    2.3 Need of variables
+    2.4 Dynamic Nature
+    2.5 ID Fucntion
+    2.6 Identity Operator
+    2.7 Printing Value of a Variables and String
+    2.8 Input Fucntion
+
+3. Operators
+    3.1 Arithematic Operator
+    3.2 Power Operator
+    3.3 Floor Operator
+    3.4 Assignment Operator
+    3.5 Relational Operator
+    3.6 Logical Operator
+
+4. Bitwise Operator
+    4.1 Bitwise Or Operator
+    4.2 Bitwise AND Operator
+    4.3 Bitwise XOR Operator
+    4.4 Bitwise left Shift Operator
+    4.5 Bitwise Right Shift Operator
+    4.6 Bitwise Ones Complement Operator
+
+5. Decision Making
+    5.1 Decision making in Python
+    5.2 if
+    5.3 if else
+    5.4 Nested if Else nested if
+
+6. String
+    6.1 String
+    6.2 Python string Index
+    6.3 Slicing String in python
+    6.4 String Mothods
+
+7. List
+    7.1 List Methods
+    7.2 Python List Index
+    7.3 Slicing List in Python
+    7.4 List Methods
+
+8. Tuples
+    8.1 Tuples
+    8.2 Modifiying Tuple element
+    8.3 Tuple Methods
+
+9. Dictionary
+    9.1 Dictionary
+    9.2 Dictionary using for loop
+    9.3 Modifiying Dictionary Items
+    9.4 Dictionary Methods
+
+10. sets 
+    
+
+
+
+
+
+
+
+
+----------------------------------------------------------
+
+1.a  > Python is a Dynamic typed languange
+        example :
+                    in C                                      in Python
+                    char a = 'hello' [correct]               a = 'hello' [valid]
+                    a = 10 [in valid as a is char type]      a = 10 [valid]
+                    a = 10.5 [in valid]                      a = 10.5 [valid]
+     > user friendly syntax
+        example :
+                print("hw")
+     > Readability 
+        example: 
+                By default python forces user to follow intendation 
+
+     > Developer Productivity
+        array = [10,20,30,40]
+
+        to check if the element in the array is available we use the following code
+
+        key = 50 
+        if key in array:
+            print("key found")
+        else:
+            print("Key not found")
+
+        Python has wide range of libraries
+
+
+    *** USAGE of Python ***
+
+    -> GUI
+    -> Web Development
+    -> Scripting
+    -> Image Processing
+    -> Machine Learning
+    
+    ### Pyhon Drawbacks ###
+     >> Execution speed is low as compared to c, c++
+
+
+
+1.1 Python Block structure
+        c, c++ and java uses "{}" to group the statements
+        in Python we use intendation to group the statements
+
+        eg: 
+            print("A")
+            print("B")
+            if A = B:
+                print("Both are same")
+            else:
+                print("They are different")
+
+
+1.2 Comments
+        Need for Comments
+        * comments helps co-Developer to understand the code.
+        * we use "#" before any statement to comment
+
+
+
+
