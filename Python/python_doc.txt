@@ -132,5 +132,14 @@
         * we use "#" before any statement to comment
 
 
+2 Basics
+
+    2.1 Print Function 
+
+        Syntax : print()
+                -> print(10)
+                -> print("welcome to 'new learning' ")
+
+
 
 
